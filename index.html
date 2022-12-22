@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este é um projeto desenvolvido para refinar minhas habilidades em programação">
+    <!-- Navegação e Inicio -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Script Geral -->
+    <script src="./assets/js/script.js" defer></script>
+    <title>Calculadora</title>
+</head>
+<body>
+<header class="header">
+ <div class="container-img">
+  <a href="index.html"><img class="logo" src="./assets/img/logo.png" alt="Logo Luiz Fernando"></a>
+ </div>
+<div class="container-menu">
+ <nav>
+   <ul class="menu">
+      <li><a href="#" onclick="mudar('section')">Calculadora</a></li>
+      <li><a href="#">Sobre Mim</a></li>
+      <li><a href="#">Projetos</a></li>
+      <li><a href="#">Contato</a></li>
+   </ul>
+  </nav>
+ </div>
+</header> 
+<div class="container-central">
+<div class="container-section">
+ <section id="section" style="display: none;">
+  <div id="calc">
+   <h3>Calculadora</h3>
+    <div id="operations">
+     <div id="previus-operation"></div>
+      <div id="current-operation"></div>
+    </div>
+     <div id="buttons-container">
+        <button>CE</button>
+        <button>C</button>
+        <button>DEL</button>
+        <button>/</button>
+        <button class="number">7</button>
+        <button class="number">8</button>
+        <button class="number">9</button>
+        <button>*</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+        <button>-</button>
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button>+</button>
+        <button class="number">0</button>
+        <button class="number">.</button>
+        <button id="equal-btn">=</button>
+     </div>
+    </div>
+   </section>
+  </div> 
+ </div>
+<footer class="footer">
+<div class="redes">
+<p>Minhas redes:</p>
+   <a href="https://github.com/KanekiZLF" title="KanekiZLF | GitHub" target="_blank">
+      <img src="assets/img/logo-github.png" alt="Logo GitHub" width="45" height="45" id="github"> GitHub</a>
+   <a href="https://www.linkedin.com/in/luiz-fernando-rocha-pimentel-b04a18154/" title="Luiz Fernando da Rocha Pimentel | LinkdIn" target="_blank">
+       <img src="assets/img/logo-linkedin.png" alt="Logo do LinkedIn em formato circular" width="45" height="45"  id="linkedin"> LinkdIn</a>
+   <a href="#" title="Luiz Fernando R. Pimentel | Instagram">
+      <img src="assets/img/logo-instagram.png" alt="Logo do Instagram" width="45" height="45" id="instagram"> Instagram</a>
+</div>
+<div class="creditos">© Desenvolvido por Luiz F. R. Pimentel | 2022</div>
+</footer>
+</body>
+</html>
